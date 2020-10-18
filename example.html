@@ -1,0 +1,19 @@
+<style>
+  .tab{
+    display: none;
+  }
+  .activeTab{
+    display: block;
+  }
+</style>
+
+<div class="tabs">
+  <ul>
+    <li class="active" onclick="tabSwitch(this,0)">First Tab</li>
+    <li onclick="tabSwitch(this,1)">Second Tab</li>
+    <li onclick="tabSwitch(this,2)">Examples</li>
+  </ul>
+	<div class="tab activeTab">First Tab Content</div>
+	<div class="tab">Second Tab Content</div>
+	<div class="tab">Third Tab Content</div>
+</div>
